@@ -1,0 +1,70 @@
+body {
+    background-color: rgb(80, 140, 219);
+}
+h2 {
+    color: white;
+}
+.wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+.div {
+    display: flex;
+    flex-direction: column;
+    align-items:  center;    
+}
+.block {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    background-color: transparent;
+    border: 2px solid white;
+}
+.modal {
+    display: none;
+    position: absolute;
+    background-color: white;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    height: 80%;
+    padding: 10px;
+    height: auto;
+}
+.modal-content {
+    background-color: white;
+    margin: 20% auto;
+}
+ul {
+    list-style: none;
+}
+li {
+    margin-bottom: 8px;
+}
+.close {
+    color: black;
+    float: right;
+    font-size: 30px;
+}
+.close:hover {
+    color: red;
+    cursor: pointer;
+}
+button {
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    padding: 8px 16px;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+button:hover {
+    background-color: black;
+    color: white;
+}
